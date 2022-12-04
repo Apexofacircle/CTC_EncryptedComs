@@ -5,7 +5,7 @@ def GetUID():
         _ip = get('https://api.ipify.org').text
 
         for i in _ip:
-            _AlfUid.append
+            _AlfUid.append[i]
 
         for x in _AlfUid:
             _AlfUid[x] = chr(_AlfUid[x])
